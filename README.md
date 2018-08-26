@@ -16,7 +16,7 @@ the ability to monitor a photocell (light level).
 
 - GND/VCC connected to 4.5V alkaline battery pack
 - SW_IN connected to magnetic reed switch between SW_IN and GND
-- PC_IN connected to photocell between PC_IN and VCC
+- PC_IN connected to photocell between PC_IN and VCC (10K R between ATTINY pin and GND)
 - RST_OUT connected to RST pin of ESP8266
 - SCL/SDA connected to I2C pins of ESP8266
 
