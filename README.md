@@ -6,13 +6,13 @@ ESP8266 is not very battery efficient, it also doesn't handle external interrupt
 The HW design for this runs off 3x 1.5V AAA batteries and is used primarily to monitor a door being opened/closed, but it also includes
 the ability to monitor a photocell (light level).
 
-//         ATTINY85
-//        +----U----+
-//     NC |1       8| VCC (+)
-//  SW_IN |2       7| SCL
-//  PC_IN |3       6| RST_OUT
-//    GND |4       5| SDA
-//        +---------+
+         ATTINY85
+        +----U----+
+     NC |1       8| VCC
+  SW_IN |2       7| SCL
+  PC_IN |3       6| RST_OUT
+    GND |4       5| SDA
+        +---------+
 
 - GND/VCC connected to 4.5V alkaline battery pack
 - SW_IN connected to magnetic reed switch between SW_IN and GND
